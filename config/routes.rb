@@ -1,5 +1,7 @@
 Bongos::Application.routes.draw do
+ 
   root "home#index"
   get "home/index"
-  post 'auth/steam/callback' => 'home#auth_callback'
+  post 'auth/steam/callback' => 'home#create'
+  resources :profile, only: [:show, :create]
 end
