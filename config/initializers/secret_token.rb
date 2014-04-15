@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Bongos::Application.config.secret_key_base = 'e855b86909e8d09b0a15401ac42c7d16ad6b0b3540caf4c0960728f12064144aa4e7ac40661ad29050632e2abce3e7e2efdd73476b532881c41e1f3ba610b917'
+Bongos::Application.config.secret_key_base = ENV['SECRET_TOKEN']
