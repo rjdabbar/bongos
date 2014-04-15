@@ -188,7 +188,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   binding_of_caller
-  coffee-rails (~> 4.0.0)
+  coffee-rails
   figaro
   guard-livereload
   jbuilder (~> 1.2)
@@ -197,10 +197,10 @@ DEPENDENCIES
   pg
   rails (= 4.0.2)
   rails_12factor
-  sass-rails (~> 4.0.0)
+  sass-rails
   sdoc
   sqlite3
   therubyracer
   turbolinks
   twitter-bootstrap-rails!
-  uglifier (>= 1.3.0)
+  uglifier
