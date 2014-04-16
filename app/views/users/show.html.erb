@@ -1,0 +1,20 @@
+<br>
+<h1>Players</h1>
+
+<table>
+  <div class="mygrid-wrapper-div">
+  <table class="table table-bordered table-hover">
+    <thead><tr>
+      <th>Players</th>
+    </tr></thead>
+    <tbody>
+      <% @players.each do |player| %>
+        <tr>
+          <td><%= image_tag player.profile.avatar %></td>
+          <td><%= player.profile.name %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+</table>
